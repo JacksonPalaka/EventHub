@@ -1,5 +1,6 @@
 # EventSerializer
-
+from events.models import Event, Reservation
+from rest_framework import serializers
 # Add a computed field reservations_count using SerializerMethodField, and validate that available_seats does not exceed total_seats.
 
 class EventSerializer(serializers.ModelSerializer):
