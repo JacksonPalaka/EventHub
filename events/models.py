@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-
+# The Flow: Database -> Django ORM (Models) -> Serializer -> JSON.
 
 
 # Event Model

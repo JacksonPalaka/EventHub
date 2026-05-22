@@ -12,7 +12,6 @@ class EventSerializer(serializers.ModelSerializer):
         fields = ['id', 'title', 'venue', 'date', 'total_seats','available_seats', 'status', 'created_at', 'reservations_count']
 
     def get_reservations_count(self, obj):
-
         return obj.reservations.filter(status='confirmed').count()
 
     def validate(self, data):
