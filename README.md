@@ -212,7 +212,7 @@ POST /api/reservations/{id}/cancel/
 {
   "title": "PyCon India 2025",
   "venue": "NIMHANS Convention Centre, Bangalore",
-  "date": "2025-09-20",
+  "date": "2025-09-23",
   "total_seats": 500,
   "available_seats": 500,
   "status": "upcoming"
@@ -228,8 +228,8 @@ POST /api/reservations/{id}/cancel/
 ```json
 {
   "event": 1,
-  "attendee_name": "Priya Sharma",
-  "attendee_email": "priya@example.com",
+  "attendee_name": "Jackson Palaka",
+  "attendee_email": "jackson@gmail.com",
   "seats_reserved": 2
 }
 ```
@@ -274,7 +274,13 @@ Returns updated reservation with:
 
 ```json
 {
-  "status": "cancelled"
+    "id": 1,
+    "event": 1,
+    "attendee_name": "Jackson Palaka",
+    "attendee_email": "jackson@gmail.com",
+    "seats_reserved": 2,
+    "status": "cancelled",
+    "created_at": "2026-05-23T09:08:51.417847Z"
 }
 ```
 
