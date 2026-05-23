@@ -357,9 +357,8 @@ This helps in debugging and monitoring API performance.
 
 ## ❌ Failure Case
 
-```md
+
 ![Overbooking Error](screenshots/overbooking_error.png)
-```
 
 ---
 
