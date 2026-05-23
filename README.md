@@ -242,8 +242,8 @@ POST /api/reservations/{id}/cancel/
 {
   "id": 1,
   "event": 1,
-  "attendee_name": "Priya Sharma",
-  "attendee_email": "priya@example.com",
+  "attendee_name": "Jackson Palaka",
+  "attendee_email": "jackson@gmail.com",
   "seats_reserved": 2,
   "status": "confirmed",
   "created_at": "2025-03-30T10:00:00Z"
@@ -345,13 +345,11 @@ This helps in debugging and monitoring API performance.
 
 ## ✅ Success Case
 
-```md
 ![Create Event](screenshots/create_event.png)
 
 ![Create Reservation](screenshots/create_reservation.png)
 
 ![Cancel Reservation](screenshots/cancel_reservation.png)
-```
 
 ---
 
